@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: linear-gradient(to left,rgba(14, 14, 27, 0.5), rgb(25, 25, 27)),url("software.jpg"); */
+    background-image: url(Pyshic_main_1641556684933_1641556693086.jpg);
+    background-position: center;
+}
+.navbar-nav{
+    margin-left: 50%;
+    font-size: 25px;
+}
+.navbar-brand{
+    padding-left:200px;
+    color: #938411;
+     font-weight: bold;
+     font-size: 30px;
+}
+.nav-link{
+  color: #938411;
+  font-weight: bold;
+}
+.herosection{
+    width: 60%;
+    height: 15in;
+    border: 3px solid black;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+}
+
+.herosection:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 1;
+}
+#sarah{
+    width: 42%; 
+    height: 25%;
+    border-radius: 8%;
+    margin-top: 10%;
+}
+.foot{
+    background-color:rgb(222, 219, 219);
+    width: 14.1in; 
+    height: 90%;
+}
+#contacts{
+    margin-left: 8in;
+    position: absolute;
+    margin-top: -3.3in;
+}
+.border{
+    height: 4in;
+    width: 5in;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.area{
+    margin-left: 17%;
+    padding-top: 40px;
+}
+.heart{
+    margin-left: 10%;
+}
+ul{
+    color: #938411;
+    font-size: 20px;
+    }
+@media screen and (max-width:482px){
+    .navbar-brand{
+        padding-left:20px;
+        color: #938411;
+         font-weight: bold;
+         font-size: 30px;
+    }
+    #logo{
+        width: 50px;
+    }
+    .herosection{
+        width: 93%;
+        height: 14.6in;
+        border: 3px solid black;
+        background-color: black;
+        opacity: 0.8;
+        color: white;
+        font-weight: bold;
+    }
+    #eye{
+        width: 80%;
+    }
+    #sarah{
+        width: 92%; 
+        height: 25%;
+        border-radius: 8%;
+        margin-top: 10%;
+    }
+    .h2{
+        margin-left: -45%;
+        color: #938411;
+font-size: 20px;}
+
+ul{
+color: #938411;
+font-size: 20px;
+}
+.foot{
+    background-color:rgb(222, 219, 219);
+    width: 4.1in;
+    height: 170%;
+}
+.area{
+    margin-left: 70px;
+}
+.heart{
+    margin-left: -15px;
+    font-size: 20px;
+}
+#contacts{
+  margin-left: 80px;
+  margin-top: -3%;
+  position: relative;
+}
+.contact{
+    margin-left: 29%;
+}
+}
